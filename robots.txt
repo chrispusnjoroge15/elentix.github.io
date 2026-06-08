@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+<head> <meta name="robots" content="index, follow"> </head>
+<title> Elentix | Autonomous Software Verification & Formal Proof Platform </title>
+<meta name="description"
+content="Elentix continuously verifies software correctness, detects vulnerabilities, and generates mathematically validated fixes using formal methods, symbolic execution, and AI.">
