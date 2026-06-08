@@ -274,7 +274,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
 
 <!-- ════════════ NAV ════════════ -->
 <nav>
-  <a href="#" class="logo"><span class="logo-glyph">⊢</span>AXIOM</a>
+  <a href="#" class="logo"><span class="logo-glyph">⊢</span>ELENTIX</a>
   <ul class="nav-links">
     <li><a href="#playground">Playground</a></li>
     <li><a href="#truth">Truth Scores</a></li>
@@ -341,7 +341,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   <div class="s-head">
     <span class="s-tag">The Engine</span>
     <div class="s-title">BUILT ON 50 YEARS OF<br><em>THEORETICAL COMPUTER SCIENCE</em></div>
-    <p class="s-desc">Every property AXIOM proves is backed by a formal proof certificate, independently verifiable by a minimal trusted kernel. We don't test software. We derive theorems about it.</p>
+    <p class="s-desc">Every property ELENTIX proves is backed by a formal proof certificate, independently verifiable by a minimal trusted kernel. We don't test software. We derive theorems about it.</p>
   </div>
   <div class="m-grid fade-u">
     <div class="m-cell" data-n="01">
@@ -388,11 +388,11 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   <div class="s-head">
     <span class="s-tag">Live Demo</span>
     <div class="s-title">VERIFICATION <em>PLAYGROUND</em></div>
-    <p class="s-desc">Select a code sample. Watch AXIOM parse, build the IR, assess risk, infer specifications, and run the full solver stack in real time. Results are mathematically grounded.</p>
+    <p class="s-desc">Select a code sample. Watch ELENTIX parse, build the IR, assess risk, infer specifications, and run the full solver stack in real time. Results are mathematically grounded.</p>
   </div>
   <div class="pg-wrap fade-u">
     <div class="pg-top">
-      <span class="pg-tit">AXIOM VERIFICATION SANDBOX</span>
+      <span class="pg-tit">ELENTIX VERIFICATION SANDBOX</span>
       <span class="pg-ver">ENGINE v4.6 · Z3 4.12 · cvc5 1.0.8 · ONLINE</span>
     </div>
     <div class="pg-tabs">
@@ -430,7 +430,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   </div>
   <div class="pviz-wrap fade-u">
     <canvas id="pviz-canvas"></canvas>
-    <div class="pviz-label">AXIOM ENGINE · PROOF GRAPH · LIVE SIMULATION</div>
+    <div class="pviz-label">ELENTIX ENGINE · PROOF GRAPH · LIVE SIMULATION</div>
     <div class="pviz-legend">
       <div class="pviz-li"><span class="pviz-dot" style="background:var(--grn)"></span>PROVED</div>
       <div class="pviz-li"><span class="pviz-dot" style="background:var(--red)"></span>REFUTED</div>
@@ -471,7 +471,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   <div class="s-head">
     <span class="s-tag">Autonomous Intelligence</span>
     <div class="s-title">THE <em>AGENT NETWORK</em></div>
-    <p class="s-desc">AXIOM deploys a DAG-orchestrated network of specialized AI agents. Each agent owns a vertical slice of the verification pipeline, collaborating through typed proof obligations.</p>
+    <p class="s-desc">ELENTIX deploys a DAG-orchestrated network of specialized AI agents. Each agent owns a vertical slice of the verification pipeline, collaborating through typed proof obligations.</p>
   </div>
   <div class="ag-grid fade-u">
     <div class="ag-card"><div class="ag-id">AGT-001</div><div class="ag-nm">ParserAgent</div><div class="ag-role">Parses source code into ASTs using Tree-sitter. Builds SSA, CFG, and DFG. Extracts function signatures, pointer arities, and loop structures. Feeds IR to downstream agents.</div><div class="ag-stat">ACTIVE · 12,401 NODES/SEC</div><div class="ag-sym">⊤</div></div>
@@ -488,7 +488,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   <div class="s-head">
     <span class="s-tag">Adaptive Strategy</span>
     <div class="s-title">RISK <em>STRATIFICATION</em></div>
-    <p class="s-desc">Not all code is equal. AXIOM applies proportional verification depth based on computed risk scores — from structural checks on low-risk tests to multi-solver extreme verification on cryptographic kernels.</p>
+    <p class="s-desc">Not all code is equal. ELENTIX applies proportional verification depth based on computed risk scores — from structural checks on low-risk tests to multi-solver extreme verification on cryptographic kernels.</p>
   </div>
   <div class="risk-tiers fade-u">
     <div class="rt t1"><div class="rt-rng">risk &lt; 0.1</div><div class="rt-lbl">SKIP</div><div class="rt-desc">Docs, test fixtures, config constants. No verification overhead. Confidence returned as 0.3 structural default.</div><div class="rt-meth">── Static tagging<br>── No solver invocation</div></div>
@@ -535,7 +535,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Race Condition · Concurrent State Machine</div>
       <div class="fc-desc">A race condition in the radiation therapy control software allowed lethal radiation doses when operators typed commands quickly. Removed hardware interlocks depended on unverified software correctness.</div>
       <div class="fc-toll"><div class="tl">Human Toll</div><div class="tv">6 DEATHS · 3 SERIOUS INJURIES</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Race condition found at BMC k=3, taint analysis flags unguarded shared state in operator mode transitions</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Race condition found at BMC k=3, taint analysis flags unguarded shared state in operator mode transitions</div>
     </div>
     <div class="fc" data-case="CASE #002">
       <div class="fc-yr">1996</div>
@@ -543,7 +543,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Integer Overflow · Type Safety Violation</div>
       <div class="fc-desc">A 64-bit floating point value representing horizontal velocity was converted to a 16-bit integer. The value was valid for Ariane 4 but exceeded the representable range in the new flight profile, causing the inertial reference system to crash.</div>
       <div class="fc-toll"><div class="tl">Financial Toll</div><div class="tv">$370M SATELLITE LOST · 40 SECONDS OF FLIGHT</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Type checker + SMT arithmetic constraint: ∀v ∈ velH: fits_int16(v) → REFUTED with counterexample v=32768.0</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Type checker + SMT arithmetic constraint: ∀v ∈ velH: fits_int16(v) → REFUTED with counterexample v=32768.0</div>
     </div>
     <div class="fc" data-case="CASE #003">
       <div class="fc-yr">2012</div>
@@ -551,7 +551,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Dead Code Resurrection · Incomplete Deployment</div>
       <div class="fc-desc">A partial software deployment reactivated an obsolete trading function ("Power Peg") that had been dead code for years. The function ran at full production scale for 45 minutes before manual shutdown was possible.</div>
       <div class="fc-toll"><div class="tl">Financial Toll</div><div class="tv">$440M IN 45 MINUTES · COMPANY DESTROYED</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Reachability analysis flags dead function as reachable post-deployment; invariant: ¬active(PowerPeg) → REFUTED on new server image</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Reachability analysis flags dead function as reachable post-deployment; invariant: ¬active(PowerPeg) → REFUTED on new server image</div>
     </div>
     <div class="fc" data-case="CASE #004">
       <div class="fc-yr">2018 – 2019</div>
@@ -567,7 +567,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Buffer Over-Read · Missing Bounds Check</div>
       <div class="fc-desc">The TLS heartbeat extension read up to 64KB of server memory beyond the buffer boundary by trusting user-supplied length parameters without validation. A trivial missing bounds check exposed private keys, passwords, and session tokens for over two years.</div>
       <div class="fc-toll"><div class="tl">Security Toll</div><div class="tv">MILLIONS OF SERVERS EXPOSED · CVE-2014-0160</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Taint analysis + BMC: ∀len: len ≤ payload_len → REFUTED; counterexample: len=65535, payload_len=1</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Taint analysis + BMC: ∀len: len ≤ payload_len → REFUTED; counterexample: len=65535, payload_len=1</div>
     </div>
     <div class="fc" data-case="CASE #006">
       <div class="fc-yr">1999</div>
@@ -575,7 +575,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Unit Mismatch · Interface Contract Violation</div>
       <div class="fc-desc">Navigation software from one contractor produced thruster impulse data in pound-force·seconds. The receiving system expected newton·seconds. No interface contract specified units. The spacecraft entered the Martian atmosphere at the wrong angle and was destroyed.</div>
       <div class="fc-toll"><div class="tl">Financial Toll</div><div class="tv">$327M SPACECRAFT LOST</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Interface Validator enforces dimensional types; SMT constraint: units(thruster_input) = N·s → REFUTED; got lbf·s</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Interface Validator enforces dimensional types; SMT constraint: units(thruster_input) = N·s → REFUTED; got lbf·s</div>
     </div>
     <div class="fc" data-case="CASE #007">
       <div class="fc-yr">1991</div>
@@ -583,7 +583,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Floating-Point Accumulation · Timing Error</div>
       <div class="fc-desc">System clock time was stored as a 24-bit fixed-point number. After 100 hours of continuous operation, accumulated floating-point truncation error was 0.34 seconds, causing the tracking gate to miss an incoming Scud missile.</div>
       <div class="fc-toll"><div class="tl">Human Toll</div><div class="tv">28 SOLDIERS KILLED · DHAHRAN, SAUDI ARABIA</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Abstraction engine over-approximates fixed-point arithmetic error; BMC shows gate_miss at t=360000s with ε accumulation</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Abstraction engine over-approximates fixed-point arithmetic error; BMC shows gate_miss at t=360000s with ε accumulation</div>
     </div>
     <div class="fc" data-case="CASE #008">
       <div class="fc-yr">1994</div>
@@ -591,7 +591,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Lookup Table Error · Arithmetic Property Violation</div>
       <div class="fc-desc">Five entries were missing from the SRT division algorithm's lookup table due to a flaw in the constant generation script. Caused rare but reproducible division errors affecting high-precision scientific and financial computation.</div>
       <div class="fc-toll"><div class="tl">Financial Toll</div><div class="tv">$475M RECALL · 1M+ PROCESSORS</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: SMT arithmetic: ∀a,b: fdiv(a,b) = a/b → REFUTED with explicit 5 counterexample cases in SRT quotient table</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: SMT arithmetic: ∀a,b: fdiv(a,b) = a/b → REFUTED with explicit 5 counterexample cases in SRT quotient table</div>
     </div>
     <div class="fc" data-case="CASE #009">
       <div class="fc-yr">2024</div>
@@ -599,7 +599,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       <div class="fc-type">Null Pointer Dereference · Channel File 291</div>
       <div class="fc-desc">A rapid content configuration update (Channel File 291) contained a null pointer that the sensor driver dereferenced without validation during an out-of-bounds memory read, causing an uncatchable kernel panic across 8.5 million Windows systems globally.</div>
       <div class="fc-toll"><div class="tl">Economic Toll</div><div class="tv">8.5M SYSTEMS DOWN · $5.4B+ ESTIMATED LOSSES</div></div>
-      <div class="fc-verdict c">✓ AXIOM DETECTION: Taint analysis: deref(ptr) where ptr ∈ Tainted(user_config) → REFUTED; null deref at channel_file offset 0x1A3</div>
+      <div class="fc-verdict c">✓ ELENTIX DETECTION: Taint analysis: deref(ptr) where ptr ∈ Tainted(user_config) → REFUTED; null deref at channel_file offset 0x1A3</div>
     </div>
   </div>
 </section>
@@ -635,24 +635,24 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
   <div class="s-head">
     <span class="s-tag">Publications</span>
     <div class="s-title">RESEARCH &amp; <em>PUBLICATIONS</em></div>
-    <p class="s-desc">AXIOM emerges from a decade of academic research in formal methods, program synthesis, and machine learning for verification. All results are independently reproducible.</p>
+    <p class="s-desc">ELENTIX emerges from a decade of academic research in formal methods, program synthesis, and machine learning for verification. All results are independently reproducible.</p>
   </div>
   <div class="res-grid fade-u">
-    <div class="rc"><div class="rc-venue">PLDI 2024 · Distinguished Paper</div><div class="rc-title">Stratified Formal Verification with Adaptive SMT Budget Allocation at Repository Scale</div><div class="rc-auth">Kalani M., Reyes A., Chen W., Adeyemi O. · Axiom Research Labs</div><div class="rc-tags"><span class="rc-tag hl">SMT</span><span class="rc-tag hl">Budget</span><span class="rc-tag">Scalability</span><span class="rc-tag">Z3</span></div></div>
-    <div class="rc"><div class="rc-venue">CAV 2024 · Best Paper Nominee</div><div class="rc-title">LLM-Guided Specification Inference with SMT Satisfiability Validation and Pattern Libraries</div><div class="rc-auth">Sørensen L., Nakamura H., Garcia R. · Axiom Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Spec Inference</span><span class="rc-tag hl">LLM</span><span class="rc-tag">Hoare Logic</span><span class="rc-tag">cvc5</span></div></div>
-    <div class="rc"><div class="rc-venue">OOPSLA 2024</div><div class="rc-title">SyGuS-Based Automated Repair with Verifier-in-the-Loop: Theory, Implementation and Industrial Evaluation</div><div class="rc-auth">Williams T., Kovacs E., Park J. · Axiom Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Auto-Repair</span><span class="rc-tag hl">SyGuS</span><span class="rc-tag">Program Synthesis</span></div></div>
-    <div class="rc"><div class="rc-venue">TACAS 2024</div><div class="rc-title">Machine-Checkable Proof Certificates for AI-Generated Code via Curry–Howard Correspondence</div><div class="rc-auth">Bergmann F., Li X., Osei K. · Axiom Research Labs + ETH Zürich</div><div class="rc-tags"><span class="rc-tag hl">Proof Certs</span><span class="rc-tag hl">LF</span><span class="rc-tag">Curry–Howard</span><span class="rc-tag">TCB</span></div></div>
-    <div class="rc"><div class="rc-venue">SAS 2023 · Best Paper Award</div><div class="rc-title">Polyhedra-Based Abstract Interpretation for Industrial Codebases: Scaling Widening Operators to 2M LOC</div><div class="rc-auth">Müller A., Trabelsi S., Foster N. · Axiom Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Abstract Interp.</span><span class="rc-tag hl">Polyhedra</span><span class="rc-tag">Scalability</span></div></div>
-    <div class="rc"><div class="rc-venue">FMCAD 2023</div><div class="rc-title">Concolic Execution with Visited State Hashing for Termination Detection in Large C/C++ Codebases</div><div class="rc-auth">Okonkwo A., Johansson M., Patel D. · Axiom Research Labs + INRIA</div><div class="rc-tags"><span class="rc-tag hl">Concolic</span><span class="rc-tag hl">BMC</span><span class="rc-tag">Termination</span><span class="rc-tag">CFG</span></div></div>
+    <div class="rc"><div class="rc-venue">PLDI 2024 · Distinguished Paper</div><div class="rc-title">Stratified Formal Verification with Adaptive SMT Budget Allocation at Repository Scale</div><div class="rc-auth">Kalani M., Reyes A., Chen W., Adeyemi O. · ELENTIX Research Labs</div><div class="rc-tags"><span class="rc-tag hl">SMT</span><span class="rc-tag hl">Budget</span><span class="rc-tag">Scalability</span><span class="rc-tag">Z3</span></div></div>
+    <div class="rc"><div class="rc-venue">CAV 2024 · Best Paper Nominee</div><div class="rc-title">LLM-Guided Specification Inference with SMT Satisfiability Validation and Pattern Libraries</div><div class="rc-auth">Sørensen L., Nakamura H., Garcia R. · ELENTIX Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Spec Inference</span><span class="rc-tag hl">LLM</span><span class="rc-tag">Hoare Logic</span><span class="rc-tag">cvc5</span></div></div>
+    <div class="rc"><div class="rc-venue">OOPSLA 2024</div><div class="rc-title">SyGuS-Based Automated Repair with Verifier-in-the-Loop: Theory, Implementation and Industrial Evaluation</div><div class="rc-auth">Williams T., Kovacs E., Park J. · ELENTIX Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Auto-Repair</span><span class="rc-tag hl">SyGuS</span><span class="rc-tag">Program Synthesis</span></div></div>
+    <div class="rc"><div class="rc-venue">TACAS 2024</div><div class="rc-title">Machine-Checkable Proof Certificates for AI-Generated Code via Curry–Howard Correspondence</div><div class="rc-auth">Bergmann F., Li X., Osei K. · ELENTIX Research Labs + ETH Zürich</div><div class="rc-tags"><span class="rc-tag hl">Proof Certs</span><span class="rc-tag hl">LF</span><span class="rc-tag">Curry–Howard</span><span class="rc-tag">TCB</span></div></div>
+    <div class="rc"><div class="rc-venue">SAS 2023 · Best Paper Award</div><div class="rc-title">Polyhedra-Based Abstract Interpretation for Industrial Codebases: Scaling Widening Operators to 2M LOC</div><div class="rc-auth">Müller A., Trabelsi S., Foster N. · ELENTIX Research Labs</div><div class="rc-tags"><span class="rc-tag hl">Abstract Interp.</span><span class="rc-tag hl">Polyhedra</span><span class="rc-tag">Scalability</span></div></div>
+    <div class="rc"><div class="rc-venue">FMCAD 2023</div><div class="rc-title">Concolic Execution with Visited State Hashing for Termination Detection in Large C/C++ Codebases</div><div class="rc-auth">Okonkwo A., Johansson M., Patel D. · ELENTIX Research Labs + INRIA</div><div class="rc-tags"><span class="rc-tag hl">Concolic</span><span class="rc-tag hl">BMC</span><span class="rc-tag">Termination</span><span class="rc-tag">CFG</span></div></div>
   </div>
 </section>
 
 <!-- ════════════ CTA ════════════ -->
 <section id="cta">
   <div class="cta-inner">
-    <span class="s-tag">Deploy AXIOM</span>
+    <span class="s-tag">Deploy ELENTIX</span>
     <div class="s-title">YOUR CODE EITHER HAS A PROOF<br><em>OR IT HAS A RISK</em></div>
-    <p class="s-desc" style="margin-bottom:3rem">Integrate AXIOM into your CI pipeline in 15 minutes. GitHub, GitLab, and Bitbucket webhooks. IDE plugins for VSCode and IntelliJ. REST API with WebSocket streaming.</p>
+    <p class="s-desc" style="margin-bottom:3rem">Integrate ELENTIX into your CI pipeline in 15 minutes. GitHub, GitLab, and Bitbucket webhooks. IDE plugins for VSCode and IntelliJ. REST API with WebSocket streaming.</p>
     <div class="hero-ctas">
       <button class="btn-p">GET EARLY ACCESS</button>
       <button class="btn-s">BOOK A DEMO</button>
@@ -664,13 +664,13 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
 <!-- ════════════ FOOTER ════════════ -->
 <footer>
   <div class="ft">
-    <div class="fb"><div class="fl">⊢ AXIOM</div><div class="ft2">Autonomous formal verification engine. We determine whether software is logically and mathematically true — not merely well-tested.</div></div>
+    <div class="fb"><div class="fl">⊢ ELENTIX</div><div class="ft2">Autonomous formal verification engine. We determine whether software is logically and mathematically true — not merely well-tested.</div></div>
     <div class="flinks"><h4>Product</h4><ul><li><a href="#">Playground</a></li><li><a href="#">API Reference</a></li><li><a href="#">IDE Plugins</a></li><li><a href="#">CI Integration</a></li><li><a href="#">Enterprise</a></li></ul></div>
     <div class="flinks"><h4>Research</h4><ul><li><a href="#">Publications</a></li><li><a href="#">Benchmarks</a></li><li><a href="#">Spec Library</a></li><li><a href="#">Proof Repository</a></li><li><a href="#">Bug Bounty</a></li></ul></div>
     <div class="flinks"><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li><li><a href="#">Press</a></li><li><a href="#">Contact</a></li></ul></div>
   </div>
   <div class="fb2">
-    <div class="fc2">© 2025 AXIOM SYSTEMS INC. · ALL PROOFS RESERVED</div>
+    <div class="fc2">© 2025 ELENTIX SYSTEMS INC. · ALL PROOFS RESERVED</div>
     <div class="fth">⊢ ∀s ∈ Software: safe(s) ↔ ∃π: check(π, spec(s)) = ✓</div>
   </div>
 </footer>
@@ -796,7 +796,7 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
       [{label:'⊢ SAFETY(P)',type:'root',level:0}],
       [{label:'∀σ: reach→safe',type:'mid',level:1},{label:'¬∃bug(P)',type:'mid',level:1}],
       [{label:'mem_safe',type:'mid',level:2},{label:'type_correct',type:'mid',level:2},{label:'no_overflow',type:'mid',level:2},{label:'termination',type:'mid',level:2}],
-      [{label:'axiom A₁',type:'axiom',level:3},{label:'SMT φ₁',type:'smt',level:3},{label:'BMC k=8',type:'bmc',level:3},{label:'axiom A₂',type:'axiom',level:3},{label:'Z3:UNSAT',type:'smt',level:3},{label:'spec S₁',type:'axiom',level:3},{label:'axiom A₃',type:'axiom',level:3}]
+      [{label:'ELENTIX A₁',type:'ELENTIX',level:3},{label:'SMT φ₁',type:'smt',level:3},{label:'BMC k=8',type:'bmc',level:3},{label:'ELENTIX A₂',type:'ELENTIX',level:3},{label:'Z3:UNSAT',type:'smt',level:3},{label:'spec S₁',type:'ELENTIX',level:3},{label:'ELENTIX A₃',type:'ELENTIX',level:3}]
     ];
     const heights=[H*.12,H*.3,H*.55,H*.78];
     tnodes=[];
@@ -818,13 +818,13 @@ footer{border-top:1px solid var(--bdr);padding:3rem 4rem;background:var(--deep);
     tedges.push({a:getByLabel('¬∃bug(P)'),b:getByLabel('no_overflow')});
     tedges.push({a:getByLabel('¬∃bug(P)'),b:getByLabel('termination')});
     // level 2 ← level 3
-    tedges.push({a:getByLabel('mem_safe'),b:getByLabel('axiom A₁')});
+    tedges.push({a:getByLabel('mem_safe'),b:getByLabel('ELENTIX A₁')});
     tedges.push({a:getByLabel('mem_safe'),b:getByLabel('SMT φ₁')});
     tedges.push({a:getByLabel('type_correct'),b:getByLabel('BMC k=8')});
-    tedges.push({a:getByLabel('no_overflow'),b:getByLabel('axiom A₂')});
+    tedges.push({a:getByLabel('no_overflow'),b:getByLabel('ELENTIX A₂')});
     tedges.push({a:getByLabel('no_overflow'),b:getByLabel('Z3:UNSAT')});
     tedges.push({a:getByLabel('termination'),b:getByLabel('spec S₁')});
-    tedges.push({a:getByLabel('termination'),b:getByLabel('axiom A₃')});
+    tedges.push({a:getByLabel('termination'),b:getByLabel('ELENTIX A₃')});
     // Start proving sequence
     const sequence=[3,4,5,6,7,8,9,10,11,12,13,14,1,2,0];
     let delay=0;
@@ -967,9 +967,9 @@ public class Singleton {
       ['[1/7]','Parsing AST (Java bytecode) ......','✓','3.2ms','ok'],
       ['[2/7]','Building SSA / CFG / DFG ...........','✓','9.1ms','ok'],
       ['[3/7]','Risk Assessment ..................','✓','0.4ms','info','       → risk_score = 0.84   tier = DEEP VERIFY'],
-      ['[4/7]','Spec Inference ...................','✓','144ms','ok','       → JMM visibility axioms loaded'],
+      ['[4/7]','Spec Inference ...................','✓','144ms','ok','       → JMM visibility ELENTIXs loaded'],
       ['[5/7]','Type Verification ................','✓','17.8ms','ok'],
-      ['[6/7]','SMT Solving (Z3 + JMM axioms) ....','?','2100ms','warn','       → 23 queries resolved  ·  budget warning 80%'],
+      ['[6/7]','SMT Solving (Z3 + JMM ELENTIXs) ....','?','2100ms','warn','       → 23 queries resolved  ·  budget warning 80%'],
       ['[7/7]','Symbolic (concurrent interlvg) ...','?','budget','warn','       → 2^18 interleavings → state explosion → CUT']
     ],
     detail:'ABSTAINED — PARTIAL RESULTS ONLY\n\nReason: Java Memory Model quantifier depth exceeds\nZ3 budget (QF_AUFBV + reachability = undecidable in general)\n\n3/5 sampled interleavings proved safe\n2/5 interleavings show potential partial-construction read\n\nRecommendation:\n  1. Add "volatile" to instance field\n  2. Re-run → predicted PROVED after fix\n  3. Human review recommended (risk=0.84)\n\nEscalated to: human-gate queue #HG-2847'
